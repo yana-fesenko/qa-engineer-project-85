@@ -14,3 +14,23 @@
     - Нажимаем кнопку «Submit»
   expected-result: |
     Пользователь должен попасть на главную страницу
+    
+- summary: |
+    Проверка регистрации пользователя
+  requirement: |
+    При вводе верных пользователя, имейла и пароля пользователь должен войти на сайт
+  prerequisites: |
+    Открыта страница регистрации https://codebattle.hexlet.io/users/new?locale=en&next=%2F 
+  test-data: |
+    Логин = TestYana
+    Email = testyana@test.test
+    Пароль = password
+    Password Confirmation = password
+  steps:
+    - Вводим логин
+    - Вводим почту
+    - Вводим пароль
+    - Подтверждаем пароль
+    - Нажимаем кнопку «Submit»
+  expected-result: |
+    Пользователь должен попасть на главную страницу сайта
