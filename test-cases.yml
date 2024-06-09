@@ -1,3 +1,18 @@
+- summary: |
+    Проверка авторизации с помощью профиля на GitHub
+  requirement: |
+    Пользователь должен авторизоваться, выбрав авторизацию «Через GitHub»
+  prerequisites: |
+    Изначально пользователь авторизовался на GitHub
+    Открыта страница входа 
+https://codebattle.hexlet.io/session/new?locale=en&next=%2F 
+  test-data: |
+    No data
+  steps:
+    - Нажимаем на кнопку «Sign in with Github»
+  expected-result: |
+    Пользователь должен попасть на главную страницу сайта
+
 ---
 - summary: |
     Проверка входа пользователя с существующими логином и паролем
