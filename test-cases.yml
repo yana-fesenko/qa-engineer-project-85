@@ -49,3 +49,23 @@ https://codebattle.hexlet.io/session/new?locale=en&next=%2F
     - Нажимаем кнопку «Submit»
   expected-result: |
     Пользователь должен попасть на главную страницу сайта
+
+- summary: |
+    Проверка входа пользователя с несуществующими логином и паролем
+  requirement: >
+    При вводе неправильного логина или пароля пользователь должен
+    получить сообщение об ошибке
+  prerequisites: >
+    Открыта страница входа
+    https://codebattle.hexlet.io/session/new?locale=en&next=%2F
+  test-data: |
+    Логин = TestYana
+    Email = testyana@test.test
+    Пароль = pass6
+  steps:
+    - Вводим почту
+    - Вводим пароль
+    - Нажимаем кнопку «Submit»
+  expected-result: |
+    Пользователь должен получить сообщение об ошибке
+
