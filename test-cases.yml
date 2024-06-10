@@ -52,10 +52,10 @@ https://codebattle.hexlet.io/session/new?locale=en&next=%2F
 
 - summary: |
     Проверка входа пользователя с несуществующими логином и паролем
-  requirement: >
+  requirement: |
     При вводе неправильного логина или пароля пользователь должен
     получить сообщение об ошибке
-  prerequisites: >
+  prerequisites: |
     Открыта страница входа
     https://codebattle.hexlet.io/session/new?locale=en&next=%2F
   test-data: |
