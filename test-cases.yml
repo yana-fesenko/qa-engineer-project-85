@@ -241,8 +241,6 @@ https://codebattle.hexlet.io/session/new?locale=en&next=%2F
   expected-result: |
     Пользователь должен получить сообщение о том, что он проиграл
 
-
-
 - summary: |
     Проверка возможности видеть почетную доску игроков за неделю, месяц, 
 всех
@@ -261,4 +259,3 @@ https://codebattle.hexlet.io/session/new?locale=en&next=%2F
     - Кликаем на вкладку total
   expected-result: |
     Должен отображаться список топ игроков weekly, monthly, total
-
