@@ -5,8 +5,7 @@
     Пользователь должен авторизоваться, выбрав авторизацию «Через GitHub»
   prerequisites: |
     Изначально пользователь авторизовался на GitHub
-    Открыта страница входа 
-https://codebattle.hexlet.io/session/new?locale=en&next=%2F 
+    Открыта страница входа https://codebattle.hexlet.io/session/new?locale=en&next=%2F 
   test-data: |
     No data
   steps:
