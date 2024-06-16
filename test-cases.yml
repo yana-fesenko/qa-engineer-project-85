@@ -194,7 +194,7 @@
     Открыта страница https://codebattle.hexlet.io/#lobby
   test-data: |
     sound_type: standard
-  steps: |
+  steps:
     - Кликаем на изображение профиля в верхнем правом углу
     - В выпадающем меню выбираем "Settings"
     - Выбираем тип звука "standard"
