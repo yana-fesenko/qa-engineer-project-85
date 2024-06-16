@@ -1,56 +1,55 @@
----
 - summary: |
     Проверка авторизации с помощью профиля на GitHub
     status: pass
 
-    - summary: |
+- summary: |
     Проверка входа пользователя с существующими логином и паролем
     status: pass
 
-    - summary: |
+- summary: |
     Проверка регистрации пользователя
     status: pass
 
-    - summary: |
+- summary: |
     Проверка входа пользователя с несуществующими логином и паролем
-     status: pass
+    status: pass
 
-     - summary: |
+- summary: |
     Проверка восстановления пароля
     status: pass
 
-    - summary: |
+- summary: |
     Проверка создания игры с ботом
     status: pass
 
-    - summary: |
+- summary: |
     Проверка создания игры с другом
     status: fail
 
-    - summary: |
+- summary: |
     Проверка создания игры с другим пользователем
     status: pass
 
-    - summary: |
+- summary: |
     Проверка отправки сообщения другому пользователю, который находится онлайн 
     status: pass
 
-    - summary: |
+- summary: |
     Проверка возможности просмотра информации о другом пользователе
     status: pass
 
-    - summary: |
+- summary: |
     Проверка возможности отменить созданную игру с ботом
     status: fail
 
-    - summary: |
+- summary: |
     Проверка смены типа звука
     status: pass
 
-    - summary: |
+- summary: |
     Проверка возможности сдаться в созданной игре с ботом
     status: pass
 
-    - summary: |
+- summary: |
     Проверка возможности видеть почетную доску игроков за неделю, месяц, всех
     status: pass
